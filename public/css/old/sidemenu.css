@@ -1,0 +1,113 @@
+.side-menubar {
+    position: fixed;
+    top: 77px;
+    z-index: 1400;
+    width: 130px;
+    height: 100%;
+    height: calc(100% - 66.01px);
+    font-family: Roboto,sans-serif;
+    color: rgba(117,117,117,.9);
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+}
+.side-menubar-body {
+    height: 100%;
+}
+.side-menubar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.side-menu {
+    padding-bottom: 20px;
+    overflow: visible;
+    font-size: 14px;
+}
+.side-menu>.side-menu-item {
+    padding: 0;
+    font-size: 16px;
+}
+.side-menu-item {
+    position: relative;
+    white-space: nowrap;
+}
+.side-menu>.side-menu-item>a {
+    display: block;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 0;
+}
+.side-menubar a {
+    outline: 0;
+}
+.side-menu-item a {
+    display: block;
+    color: rgba(117,117,117,.9);
+}
+.side-menu-item a:hover {
+    color: #0056b3;
+}
+.side-menu-icon {
+    display: block!important;
+    width: 1em;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+}
+.side-menu-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.side-menu>.side-menu-item>.side-menu-sub {
+    position: absolute;
+    top: 0;
+    left: 130px;
+    width: 240px;
+    overflow-y: auto;
+    visibility: hidden;
+    background: #fff;
+    border: 1px solid #f7f7f7;
+    opacity: 0;
+    transition: visibility .25s,opacity .25s;
+}
+.side-menu .side-menu-sub {
+    padding: 5px 0;
+    margin: 0;
+    font-size: 14px;
+    background: 0 0;
+}
+.side-menubar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.side-menu .side-menu-sub .side-menu-item {
+    line-height: 36px;
+    color: rgba(117,117,117,.9);
+    background: 0 0;
+}
+.side-menu>.side-menu-item>.side-menu-sub .side-menu-item>a {
+    padding: 0 30px;
+}
+.site-menu-item>a {
+    white-space: nowrap;
+    cursor: pointer;
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}

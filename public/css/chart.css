@@ -1,0 +1,17 @@
+.image_box {
+    width: 70px;
+    height: 70px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin : 0 auto;
+    border: 1px rgba(128, 128, 128, 0.841) ;
+}
+.device_profile {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.profile_td{
+    text-align: center;
+}

@@ -1,0 +1,254 @@
+.vertical-align-middle {
+    vertical-align: middle;
+}
+.vertical-align-bottom, .vertical-align-middle {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 1rem;
+}
+.vertical-align {
+    font-size: 0;
+}
+.form-material.floating{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+    float: none;
+    background-image: linear-gradient(#3f51b5,#3f51b5),linear-gradient(#e0e0e0,#e0e0e0);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-material .form-control {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center bottom,center calc(100% - 1px);
+    background-size: 0 2px,100% 1px;
+    transition: background 0s ease-out;
+}
+.form-material .form-control~.floating-label {
+    top: .57142857rem;
+    font-size: 1rem;
+}
+.page-login-v3 form .form-material label {
+    font-weight: 300;
+    color: #a3afb7;
+}
+.form-material .floating-label {
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+    color: #757575;
+    pointer-events: none;
+    transition: .3s ease all;
+}
+.mt-40 {
+    margin-top: 40px!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+    box-shadow: none;
+}
+.btn {
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    transition: border .2s linear,color .2s linear,width .2s linear,background-color .2s linear;
+    cursor: pointer;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .715rem 1.286rem;
+    font-size: 1.286rem;
+    line-height: 1.3333333333;
+    border-radius: .286rem;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #5c6bc0;
+    border-color: #5c6bc0;
+    box-shadow: none;
+}
+.page-content{
+  padding: 30px;
+}
+.layout-full .page {
+    height: 100%;
+    padding: 0;
+    margin: 0!important;
+    background-color: transparent;
+}
+.page {
+    position: relative;
+    min-height: calc(100% - 44px);
+    background: #f3f4f5;
+}
+.page-login-v3 .panel {
+    width: 400px;
+    margin-bottom: 45px;
+    background: #fff;
+    border-radius: .286rem;
+}
+.panel {
+    position: relative;
+    margin-bottom: 2.143rem;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: .286rem;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.page-login-v3 .panel .panel-body {
+    padding: 50px 40px 40px;
+}
+.panel>:not(.panel-loading):not(.collapsing) {
+    transition: opacity .3s;
+}
+.panel-body {
+    position: relative;
+    padding: 30px;
+}
+.page-login-v3 form {
+    margin: 45px 0 30px;
+}
+.form-material .form-control.focus~.floating-label, .form-material .form-control:focus~.floating-label, .form-material .form-control:not(.empty)~.floating-label {
+    font-weight: 500;
+}
+.form-material .form-control.focus~.floating-label, .form-material .form-control:focus~.floating-label, .form-material .form-control:not(.empty)~.floating-label {
+    top: -.8rem;
+    font-size: .8rem;
+}
+.form-material .form-control.focus, .form-material .form-control:focus {
+    background-size: 100% 2px,100% 1px;
+    outline: 0;
+    transition-duration: .3s;
+}
+.form-material .form-control,.form-material .form-control:focus {
+    float: none;
+    background-image: linear-gradient(#3f51b5,#3f51b5),linear-gradient(#e0e0e0,#e0e0e0);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+
+/* body.layout-full {
+    padding-top: 0;
+}
+.animsition, .animsition-overlay {
+    position: relative;
+    opacity: 0;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.layout-full {
+    height: 100%;
+}
+.layout-full .page {
+    height: 100%;
+    padding: 0;
+    margin: 0!important;
+    background-color: transparent;
+}
+.page {
+    position: relative;
+    min-height: calc(100% - 44px);
+    background: #f3f4f5;
+}
+.page-content {
+    padding: 30px;
+}
+.vertical-align-middle {
+    vertical-align: middle;
+}
+.vertical-align-bottom, .vertical-align-middle {
+    display: inline-block;
+    max-width: 100%;
+    font-size: 1rem;
+}
+.vertical-align {
+    font-size: 0;
+}
+.page-login-v3 .panel {
+    width: 400px;
+    margin-bottom: 45px;
+    background: #fff;
+    border-radius: .286rem;
+}
+.panel {
+    position: relative;
+    margin-bottom: 2.143rem;
+    background-color: #fff;
+    border: 0 solid transparent;
+    border-radius: .286rem;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.page-login-v3 .panel .panel-body {
+    padding: 50px 40px 40px;
+}
+.panel>:not(.panel-loading):not(.collapsing) {
+    transition: opacity .3s;
+}
+.panel-body {
+    position: relative;
+    padding: 30px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.page-login-v3 .panel .brand-text {
+    margin-top: 8px;
+}
+.page-login-v3 form {
+    margin: 45px 0 30px;
+}
+.form-material.floating {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-material {
+    position: relative;
+}
+.form-material .form-control, .form-material .form-control.focus, .form-material .form-control:focus {
+    float: none;
+    background-image: linear-gradient(#3f51b5,#3f51b5),linear-gradient(#e0e0e0,#e0e0e0);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-material .form-control {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center bottom,center calc(100% - 1px);
+    background-size: 0 2px,100% 1px;
+    transition: background 0s ease-out;
+}
+
+
+
+
+.page-copyright-inverse {
+    color: #fff;
+}
+.page-copyright {
+    margin-top: 60px;
+    font-size: .858rem;
+    color: #424242;
+    letter-spacing: 1px;
+}
+
+.form-material.floating{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+} */

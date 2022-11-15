@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.57142857;
+    color: #76838f;
+    text-align: left;
+    background-color: #fff;
+}
+body{
+    height: 100%;
+}
+table {
+    display: table;
+    /* border-collapse: separate; */
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    text-align: center;
+}
+.btn-raised {
+    box-shadow: 0 0 2px rgb(0 0 0 / 18%), 0 2px 4px rgb(0 0 0 / 21%);
+    transition: box-shadow .25s cubic-bezier(.4,0,.2,1);
+}
+/* .btn-outline-primary, .btn-outline.btn-primary {
+    color: #3e8ef7;
+    background-color: transparent;
+    border-color: #3e8ef7;
+} */
+/* .btn-outline-primary, .btn-outline.btn-primary {
+    color: #4C00b9;
+    background-color: transparent;
+    border-color: #4C00b9;
+} */
+.btn-outline-primary, .btn-outline.btn-primary {
+    color: #76838f;
+    background-color: #f3f7f9;
+    border-color: #f3f7f9;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4C00b9;
+    --bs-btn-border-color: #4C00b9;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4C00CD;
+    --bs-btn-hover-border-color: #4C00CD;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4C00A5;
+    --bs-btn-active-border-color: #4C00A5;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #4C00b9;
+    --bs-btn-disabled-border-color: #4C00b9;
+}
+.card-shadow {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+.card {
+    margin-bottom: 2.143rem;
+    border: none;
+    border-radius: 10px;
+}
+.blue-grey-700 {
+    color: #37474f!important;
+}
+.font-size-20 {
+    font-size: 20px!important;
+}
+.p-30 {
+    padding: 30px!important;
+}
+.p-20 {
+    padding: 20px!important;
+}
+.px-30 {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+.pb-30{
+    padding-bottom: 30px !important;
+}
+.pb-10{
+    padding-bottom: 10px !important;
+}
+.pt-10 {
+    padding-top: 10px !important;
+}
+.pt-20 {
+    padding-top: 20px !important;
+}
+.pt-30 {
+    padding-top: 30px !important;
+}
+.table {
+    color: #76838f;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.table thead:first-child th {
+    border-top: none;
+}
+.table tfoot th, .table thead th {
+    /* font-weight: 500; */
+    color: #526069;
+    border-bottom-width: 1px;
+    padding: 0.572rem;
+}
+th {
+    border: unset;
+    text-align: inherit;
+    background-color: #EEEEEE !important;
+    background-color: #FAFAFA !important;    
+}
+.table td {
+    padding: 0.572rem;
+    vertical-align: top;
+    border-top: 1px solid #e4eaec;
+    vertical-align: middle;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #e4eaec;
+}
+.table-bordered {
+    border: 0;
+}
+.table-bordered thead:first-child th {
+    border-top: 1px solid #e4eaec;
+}
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.form-control.round {
+    border-radius: 10px;
+    height: 30px;
+}
+.form-control {
+    background-color: #FAFAFA;
+}
+.text-left {
+    text-align: left!important;
+}
+.text-right {
+    text-align: right!important;
+}
+.row {
+    margin: 0 !important;
+} 
+.row>* {
+    padding-left: unset;
+}
+.counter {
+    text-align: center;
+}
+.counter-label {
+    display: block;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+.counter .counter-number-group, .counter>.counter-number {
+    font-size: 20px;
+    /* color: #37474f; */
+}
+.counter-sm .counter-number-group, .counter-sm>.counter-number {
+    font-size: 14px;
+}
+.green-600 {
+    color: #11c26d!important;
+}
+.red-600 {
+    color: #ff4c52!important;
+}
+.line-50 {
+    line-height: 50px;
+}
+.line-30 {
+    line-height: 30px;
+}
+.row.no-space {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-space>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.h-p20 {
+    height: 20%;
+}
+.h-p50 {
+    height: 50%;
+}
+.p-10 {
+    padding: 10px;
+}
+.h-p100{
+    height: 100%;
+}
+select option:disabled {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    caption-side: top !important;
+}
+::-webkit-scrollbar {
+    width: 6px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #A3AFB7; /* 스크롤바의 색상 */
+    
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);  /*스크롤바 뒷 배경 색상*/
+}

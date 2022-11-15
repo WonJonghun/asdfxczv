@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="pants" unicode="&#xe800;" d="M933 796c0 10-10 19-20 19h-825c-11 0-21-9-21-19l-67-888c0-6 2-12 6-16 4-5 11-7 15-7h385c9 0 17 7 21 15l73 229 73-229c2-8 10-15 21-15h385c6 0 11 2 15 7 4 4 6 10 6 16l-67 888z m-39-23l10-131h-806l10 131h786z m-286-846l-87 277c-2 9-11 15-21 15-8 0-17-6-21-15l-89-277h-348l50 673h812l50-673h-346z m-237 740c10-4 23 0 27 8l17 33h168l17-33c4-8 10-12 19-12 4 0 6 0 8 2 11 4 15 16 8 27l-22 43c-5 7-11 13-19 13h-196c-8 0-15-4-19-13l-23-43c0-9 4-21 15-25z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
